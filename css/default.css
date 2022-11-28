@@ -4,21 +4,28 @@
   --yellow: #ffd460;
   --grey: #f4f4f4;
 }
+html,
 body {
+  height: 100%;
   margin: 0;
+}
+body {
   font-family: "Lato", sans-serif;
 }
-
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+}
 header {
   background-color: var(--blue);
   color: #fff;
   padding: 20px;
   display: grid;
   grid-template-columns: 78px auto;
+  height: 58px;
 }
-footer {
-  background-color: var(--blue);
-}
+
 .title {
   text-align: center;
 
@@ -36,7 +43,52 @@ nav,
 #menu-checkbox:checked ~ nav {
   display: block;
   position: absolute;
+  right: 0;
+  top: 98px;
+  width: 100%;
+  padding: 10px 0;
 }
 .menu-icon-label i {
   font-size: 28px;
+}
+nav {
+  background-color: #f07b3f;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+.search-bar {
+  height: 26px;
+  margin: 20px auto 20px auto;
+  width: 200px;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  padding: 0 10px;
+}
+main {
+  min-height: 100%;
+  margin-bottom: -160px;
+}
+footer {
+  background-color: var(--blue);
+  height: 160px;
+  padding: 20px;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.social-container {
+  color: #fff;
+  font-size: 24px;
+  text-align: right;
+}
+.social-container i {
+  margin: 0 5px;
 }
