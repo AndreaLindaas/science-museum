@@ -21,11 +21,13 @@ header {
   background-color: var(--blue);
   color: #fff;
   padding: 20px;
-  display: grid;
-  grid-template-columns: 78px auto;
+
   height: 58px;
 }
-
+.title-nav-container {
+  display: grid;
+  grid-template-columns: 78px auto;
+}
 .title {
   text-align: center;
 
@@ -94,27 +96,15 @@ footer a {
 }
 @media screen and (min-width: 768px) {
   header {
-    height: 80px;
-    padding: 65px;
+    height: 96px;
+    padding: 20px;
+  }
+  .title-nav-container {
+    grid-template-columns: 168px auto;
   }
   .title {
-    font-size: 32px;
+    font-size: 26px;
   }
-  /* .menu-icon-label { 
-    display: none;
-  }
-  /* nav, 
-  #menu-checkbox:checked ~ nav {
-      display: block;
-      background: transparent;
-      display: grid;
-      gri
-      grid-template-columns: 232px 75px 84px 75px 75px 132px 122px;
-
-      position: absolute;
-      left: 324px;
-      top: 80px;
-      width: auto;} */
   .menu-icon-label {
     display: none;
   }
@@ -123,13 +113,7 @@ footer a {
     display: block;
     background: transparent;
     display: grid;
-
     grid-template-columns: 75px 84px 75px 75px 132px 122px;
-
-    position: absolute;
-    left: 324px;
-    top: 80px;
-    width: auto;
   }
   .search-bar {
     display: none;
