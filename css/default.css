@@ -1,0 +1,42 @@
+:root {
+  --orange: #f07b3f;
+  --blue: #2d4059;
+  --yellow: #ffd460;
+  --grey: #f4f4f4;
+}
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: var(--blue);
+  color: #fff;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 78px auto;
+}
+footer {
+  background-color: var(--blue);
+}
+.title {
+  text-align: center;
+
+  font-weight: 300;
+}
+.nav-container {
+  text-align: right;
+  padding-top: 18px;
+}
+
+nav,
+#menu-checkbox {
+  display: none;
+}
+#menu-checkbox:checked ~ nav {
+  display: block;
+  position: absolute;
+}
+.menu-icon-label i {
+  font-size: 28px;
+}
