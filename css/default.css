@@ -92,3 +92,46 @@ footer a {
 .social-container i {
   margin: 0 5px;
 }
+@media screen and (min-width: 768px) {
+  header {
+    height: 80px;
+    padding: 65px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  /* .menu-icon-label { 
+    display: none;
+  }
+  /* nav, 
+  #menu-checkbox:checked ~ nav {
+      display: block;
+      background: transparent;
+      display: grid;
+      gri
+      grid-template-columns: 232px 75px 84px 75px 75px 132px 122px;
+
+      position: absolute;
+      left: 324px;
+      top: 80px;
+      width: auto;} */
+  .menu-icon-label {
+    display: none;
+  }
+  nav,
+  #menu-checkbox:checked ~ nav {
+    display: block;
+    background: transparent;
+    display: grid;
+
+    grid-template-columns: 75px 84px 75px 75px 132px 122px;
+
+    position: absolute;
+    left: 324px;
+    top: 80px;
+    width: auto;
+  }
+  .search-bar {
+    display: none;
+  }
+}
