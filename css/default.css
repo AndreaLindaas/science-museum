@@ -3,6 +3,7 @@
   --blue: #2d4059;
   --yellow: #ffd460;
   --grey: #f4f4f4;
+  --red: #ea5455;
 }
 html,
 body {
@@ -83,11 +84,11 @@ nav a {
 }
 main {
   min-height: 100%;
-  margin-bottom: -260px;
+  margin-bottom: -300px;
 }
 footer {
   background-color: var(--blue);
-  height: 260px;
+  height: 300px;
   padding: 20px;
 }
 .hours {
@@ -106,6 +107,21 @@ footer a {
 }
 .social-container i {
   margin: 0 5px;
+}
+.red {
+  color: var(--red);
+}
+.hours-title {
+  margin-bottom: 4px;
+}
+.address {
+  margin-bottom: 4px;
+}
+.link-hours-container {
+  color: #fff;
+}
+.link-hours-container ul {
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   header {
@@ -157,7 +173,7 @@ footer a {
   }
   .link-hours-container {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 200px 200px auto;
     margin: 30px;
   }
   .hours {
