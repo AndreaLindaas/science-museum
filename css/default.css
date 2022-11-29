@@ -16,6 +16,7 @@ ul,
 li {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 header {
   background-color: var(--blue);
@@ -82,12 +83,17 @@ nav a {
 }
 main {
   min-height: 100%;
-  margin-bottom: -160px;
+  margin-bottom: -260px;
 }
 footer {
   background-color: var(--blue);
-  height: 160px;
+  height: 260px;
   padding: 20px;
+}
+.hours {
+  color: #fff;
+  font-size: small;
+  margin-top: 22px;
 }
 footer a {
   color: #fff;
@@ -148,5 +154,13 @@ footer a {
   }
   .social-container {
     margin-right: 60px;
+  }
+  .link-hours-container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin: 30px;
+  }
+  .hours {
+    margin-top: 0;
   }
 }
