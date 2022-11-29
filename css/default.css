@@ -33,6 +33,10 @@ header {
 
   font-weight: 300;
 }
+.title a {
+  text-decoration: none;
+  color: #fff;
+}
 .nav-container {
   text-align: right;
   padding-top: 18px;
@@ -108,17 +112,14 @@ footer a {
   .title {
     font-size: 26px;
   }
-  .title a {
-    text-decoration: none;
-    color: #fff;
-  }
+
   .menu-icon-label {
     display: none;
   }
   .nav-container {
     position: absolute;
     top: 60px;
-    right: 114px;
+    right: 1px;
   }
   nav a:hover {
     color: var(--orange);
@@ -145,7 +146,7 @@ footer a {
   footer a:hover {
     color: var(--orange);
   }
-  .sosial-container {
-    padding: 0 60px;
+  .social-container {
+    margin-right: 60px;
   }
 }
