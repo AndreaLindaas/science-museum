@@ -73,6 +73,9 @@ nav a {
   border: none;
   padding: 0 10px;
 }
+.desktop-search-bar {
+  display: none;
+}
 main {
   min-height: 100%;
   margin-bottom: -160px;
@@ -117,5 +120,13 @@ footer a {
   }
   .search-bar {
     display: none;
+  }
+  .desktop-search-bar {
+    display: block;
+    position: absolute;
+    right: 18px;
+    height: 26px;
+    border-radius: 5px;
+    border: none;
   }
 }
