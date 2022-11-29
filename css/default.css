@@ -111,12 +111,17 @@ footer a {
   .menu-icon-label {
     display: none;
   }
+  .nav-container {
+    position: absolute;
+    top: 60px;
+    right: 114px;
+  }
   nav,
   #menu-checkbox:checked ~ nav {
     display: block;
     background: transparent;
     display: grid;
-    grid-template-columns: 75px 84px 75px 75px 132px 122px;
+    grid-template-columns: 75px 84px 75px 92px 132px 122px;
   }
   .search-bar {
     display: none;
