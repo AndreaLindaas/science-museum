@@ -108,6 +108,10 @@ footer a {
   .title {
     font-size: 26px;
   }
+  .title a {
+    text-decoration: none;
+    color: #fff;
+  }
   .menu-icon-label {
     display: none;
   }
@@ -115,6 +119,9 @@ footer a {
     position: absolute;
     top: 60px;
     right: 114px;
+  }
+  nav a:hover {
+    color: var(--orange);
   }
   nav,
   #menu-checkbox:checked ~ nav {
@@ -133,5 +140,12 @@ footer a {
     height: 26px;
     border-radius: 5px;
     border: none;
+  }
+
+  footer a:hover {
+    color: var(--orange);
+  }
+  .sosial-container {
+    padding: 0 60px;
   }
 }
