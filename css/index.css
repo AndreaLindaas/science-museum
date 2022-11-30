@@ -1,0 +1,21 @@
+.main-header {
+  background-image: url("../images/museum-header.jpg");
+  height: 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-museum {
+  height: 150px;
+}
+.text {
+  font-weight: bold;
+  text-align: center;
+}
+.buttons {
+  background-color: var(--orange);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
