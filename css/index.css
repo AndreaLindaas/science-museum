@@ -6,16 +6,36 @@
   background-position: center;
 }
 
-.image-museum {
+.images-index-page {
   height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 .text {
   font-weight: bold;
   text-align: center;
 }
-.buttons {
-  background-color: var(--orange);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+
+/* .img-text {
+  display: grid;
+  grid-template-columns: auto auto;
+} */
+.content-item p {
+  text-align: center;
+  margin: 25px;
+}
+.content-item {
+  background-color: var(--grey);
+}
+.content-item.secondary {
+  background-color: #fff;
+}
+.content-item .text-container {
+  padding: 40px;
+}
+
+.content-item .ticket-button {
+  text-align: center;
 }

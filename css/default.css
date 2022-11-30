@@ -84,7 +84,7 @@ nav a {
 }
 main {
   min-height: 100%;
-  margin-bottom: -350px;
+  margin-bottom: 50px;
 }
 footer {
   background-color: var(--blue);
@@ -121,6 +121,13 @@ footer a {
 }
 .link-hours-container ul {
   margin-bottom: 20px;
+}
+.buttons {
+  background-color: var(--orange);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  height: 26px;
 }
 @media screen and (min-width: 768px) {
   header {
@@ -167,10 +174,6 @@ footer a {
 
   footer {
     height: 270px;
-  }
-
-  main {
-    margin-bottom: -270px;
   }
 
   footer a:hover {
