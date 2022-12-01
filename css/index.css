@@ -16,43 +16,62 @@
 .text {
   font-weight: bold;
   text-align: center;
+  font-size: 24px;
 }
 
-/* .img-text {
-  display: grid;
-  grid-template-columns: auto auto;
-} */
 .content-item p {
   text-align: center;
   margin: 25px;
 }
 .content-item {
   background-color: var(--grey);
+  padding: 50px 20px;
 }
 .content-item.secondary {
   background-color: #fff;
 }
 .content-item .text-container {
-  padding: 40px;
+  padding-bottom: 30px;
 }
 
 .content-item .ticket-button {
   text-align: center;
 }
 
-.content-item,
-.content-item.secondary .visit-button,
-.explore-button,
-.exhibition-button,
-.spesial-events-button,
-.involved-button {
+.content-item .button-container {
   text-align: center;
-  margin-bottom: 36px;
 }
 .content-item .ticket-button .buttons {
-  height: 45px;
-  width: 100px;
+  height: 62px;
+  width: 200px;
+  font-size: 24px;
+  margin: 0;
 }
 .index-page .buttons {
-  margin: 30px 0 50px 0;
+  margin: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .main-header {
+    height: 300px;
+  }
+  .images-index-page {
+    height: 100%;
+  }
+
+  .img-text {
+    display: flex;
+  }
+  .content-item.secondary .img-text {
+    flex-direction: row-reverse;
+  }
+  .content-item p {
+    max-width: 400px;
+  }
+  .content-item .button-container {
+    text-align: left;
+  }
+  .content-item.secondary .button-container {
+    text-align: right;
+  }
 }

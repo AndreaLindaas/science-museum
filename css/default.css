@@ -84,7 +84,6 @@ nav a {
 }
 main {
   min-height: 100%;
-  margin-bottom: 50px;
 }
 footer {
   background-color: var(--blue);
@@ -127,8 +126,8 @@ footer a {
   color: #fff;
   border: none;
   border-radius: 5px;
-  height: 38px;
-  width: 80px;
+  height: 42px;
+  width: 150px;
 }
 @media screen and (min-width: 768px) {
   header {
