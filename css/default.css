@@ -127,7 +127,8 @@ footer a {
   color: #fff;
   border: none;
   border-radius: 5px;
-  height: 26px;
+  height: 38px;
+  width: 80px;
 }
 @media screen and (min-width: 768px) {
   header {

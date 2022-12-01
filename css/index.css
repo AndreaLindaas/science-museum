@@ -39,3 +39,20 @@
 .content-item .ticket-button {
   text-align: center;
 }
+
+.content-item,
+.content-item.secondary .visit-button,
+.explore-button,
+.exhibition-button,
+.spesial-events-button,
+.involved-button {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.content-item .ticket-button .buttons {
+  height: 45px;
+  width: 100px;
+}
+.index-page .buttons {
+  margin: 30px 0 50px 0;
+}
