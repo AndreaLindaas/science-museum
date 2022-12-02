@@ -1,5 +1,15 @@
 .content-item h2,
 p,
-iframe {
+iframe,
+.content-item-hours {
   margin: 0 0 30px 40px;
+}
+.img-visit-page {
+  width: 200px;
+}
+.img-text-container {
+  display: flex;
+}
+.content-item.secondary .img-text-container {
+  flex-direction: row-reverse;
 }
