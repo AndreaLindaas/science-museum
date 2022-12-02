@@ -23,13 +23,7 @@
   text-align: center;
   margin: 25px;
 }
-.content-item {
-  background-color: var(--grey);
-  padding: 50px 20px;
-}
-.content-item.secondary {
-  background-color: #fff;
-}
+
 .content-item .text-container {
   padding-bottom: 30px;
 }
