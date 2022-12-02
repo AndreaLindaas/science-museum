@@ -6,66 +6,14 @@
   background-position: center;
 }
 
-.images-index-page {
-  height: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 .text {
   font-weight: bold;
   text-align: center;
   font-size: 24px;
 }
 
-.content-item p {
-  text-align: center;
-  margin: 25px;
-}
-
-.content-item .text-container {
-  padding-bottom: 30px;
-}
-
-.content-item .ticket-button {
-  text-align: center;
-}
-
-.content-item .button-container {
-  text-align: center;
-}
-.content-item .ticket-button .buttons {
-  height: 62px;
-  width: 200px;
-  font-size: 24px;
-  margin: 0;
-}
-.index-page .buttons {
-  margin: 30px 0;
-}
-
 @media screen and (min-width: 768px) {
   .main-header {
     height: 300px;
-  }
-  .images-index-page {
-    height: 100%;
-  }
-
-  .img-text {
-    display: flex;
-  }
-  .content-item.secondary .img-text {
-    flex-direction: row-reverse;
-  }
-  .content-item p {
-    max-width: 400px;
-  }
-  .content-item .button-container {
-    text-align: left;
-  }
-  .content-item.secondary .button-container {
-    text-align: right;
   }
 }

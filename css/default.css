@@ -35,6 +35,19 @@ header {
 
   font-weight: 300;
 }
+.title .science span {
+  display: inline-block;
+  animation: flip 5s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
+
 .title a {
   text-decoration: none;
   color: #fff;
@@ -133,10 +146,44 @@ footer a {
   background-color: var(--grey);
   padding: 50px 20px;
 }
+
 .content-item.secondary {
   background-color: #fff;
   padding: 50px 20px;
 }
+.content-item h2 {
+  text-align: center;
+}
+.content-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  width: 100%;
+}
+.content-item p {
+  text-align: center;
+  margin: 25px;
+}
+
+.content-item .text-container {
+  padding-bottom: 30px;
+}
+
+.content-item .ticket-button {
+  text-align: center;
+}
+
+.content-item .button-container {
+  text-align: center;
+}
+.content-item .ticket-button .buttons {
+  height: 62px;
+  width: 200px;
+  font-size: 24px;
+  margin: 0;
+}
+
 @media screen and (min-width: 768px) {
   header {
     height: 96px;
@@ -197,5 +244,42 @@ footer a {
   }
   .hours {
     margin-top: 0;
+  }
+  .content-item img {
+    width: 50%;
+    flex: 1;
+    max-width: none;
+    max-height: 250px;
+    object-fit: cover;
+  }
+  .content-item.secondary .img-text {
+    flex-direction: row-reverse;
+  }
+  .content-item .img-text {
+    display: flex;
+  }
+
+  .content-item .img-text > div {
+    flex: 1;
+  }
+
+  .content-item p {
+    max-width: 400px;
+  }
+  .content-item .button-container {
+    text-align: left;
+    display: flex;
+  }
+  .content-item.secondary .button-container {
+    text-align: right;
+  }
+
+  .content-item .button-container .flex-item {
+    flex: 0.5;
+    text-align: center;
+  }
+
+  .content-item.secondary .button-container {
+    flex-direction: row-reverse;
   }
 }
