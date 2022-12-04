@@ -151,6 +151,9 @@ footer a {
   background-color: #fff;
   padding: 50px 20px;
 }
+.content-item.center {
+  text-align: center;
+}
 .content-item h2 {
   text-align: center;
 }
@@ -162,7 +165,6 @@ footer a {
   width: 100%;
 }
 .content-item p {
-  text-align: center;
   margin: 25px;
 }
 
@@ -263,7 +265,7 @@ footer a {
     flex: 1;
   }
 
-  .content-item p {
+  .content-item .img-text p {
     max-width: 400px;
   }
   .content-item .button-container {

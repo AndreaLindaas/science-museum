@@ -1,4 +1,20 @@
-.content-item-hours {
+.content-item-hours,
+.content-item-admission {
   margin: 0 auto;
   width: 188px;
+}
+.content-item-admission {
+  width: 500px;
+}
+.map {
+  width: 100%;
+  height: 350px;
+}
+.content-item img.wheelchair {
+  object-fit: contain;
+}
+@media screen and (min-width: 768px) {
+  .map {
+    max-width: 500px;
+  }
 }
