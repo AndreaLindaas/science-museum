@@ -146,8 +146,13 @@ footer a {
   color: #fff;
   border: none;
   border-radius: 5px;
-  height: 42px;
-  width: 150px;
+  height: 22px;
+  width: 120px;
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: center;
+  line-height: 22px;
+  text-decoration: none;
 }
 .content-item {
   background-color: var(--grey);
@@ -168,13 +173,16 @@ footer a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
   max-width: 400px;
   width: 100%;
 }
 .content-item p {
   margin: 25px;
 }
-
+.content-item h1 {
+  margin-left: 25px;
+}
 .content-item .text-container {
   padding-bottom: 30px;
 }
