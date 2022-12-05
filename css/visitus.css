@@ -4,7 +4,8 @@
   width: 188px;
 }
 .content-item-admission {
-  width: 500px;
+  max-width: 500px;
+  width: auto;
 }
 .map {
   width: 100%;

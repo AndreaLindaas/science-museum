@@ -26,6 +26,13 @@ header {
 
   height: 58px;
 }
+.main-header {
+  background-image: url("../images/museum-header.jpg");
+  height: 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .title-nav-container {
   display: grid;
   grid-template-columns: 78px auto;
@@ -186,10 +193,41 @@ footer a {
   margin: 0;
 }
 
+/*****
+Promo item
+******/
+.promo-item {
+  margin: 40px auto;
+  background-color: var(--yellow);
+  max-width: 400px;
+}
+.promo-item h2 {
+  margin-top: 0;
+}
+.promo-item img {
+  width: 100%;
+}
+.promo-item a {
+  text-decoration: none;
+  color: black;
+}
+.promo-item a:visited {
+  color: black;
+}
+.promo-item:hover {
+  opacity: 0.8;
+}
+.title-text {
+  padding: 20px;
+}
+
 @media screen and (min-width: 768px) {
   header {
     height: 96px;
     padding: 20px;
+  }
+  .main-header {
+    height: 300px;
   }
   .title-nav-container {
     grid-template-columns: 168px auto;
@@ -283,5 +321,11 @@ footer a {
 
   .content-item.secondary .button-container {
     flex-direction: row-reverse;
+  }
+  .promo-item-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+    padding: 0 60px;
   }
 }

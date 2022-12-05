@@ -1,19 +1,5 @@
-.main-header {
-  background-image: url("../images/museum-header.jpg");
-  height: 140px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .text {
   font-weight: bold;
   text-align: center;
   font-size: 24px;
-}
-
-@media screen and (min-width: 768px) {
-  .main-header {
-    height: 300px;
-  }
 }
