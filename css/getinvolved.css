@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+  .content-item .button-container {
+    display: block;
+  }
+  .content-item.secondary .button-container {
+    text-align: center;
+  }
+}
