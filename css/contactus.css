@@ -1,3 +1,6 @@
+main {
+  background-color: var(--grey);
+}
 .form div {
   margin: 20px auto;
   width: 270px;
@@ -6,13 +9,20 @@
 .form input {
   width: 100%;
   height: 38px;
+  border: none;
 }
 .form textarea {
   height: 100px;
   width: 100%;
+  border: none;
 }
 .form-button {
   text-align: center;
+}
+.team {
+  background-color: #fff;
+  padding: 16px;
+  margin: 40px 24px 0 24px;
 }
 .team img {
   border-radius: 50%;
@@ -21,14 +31,23 @@
 }
 .team h2 {
   text-align: center;
-  margin-top: 40px;
 }
 .team-container {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
+  border-top: 3px solid var(--grey);
+  padding-top: 20px;
 }
 .team-container p {
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .form-employee-container {
+    display: flex;
+    gap: 40px;
+
+    justify-content: center;
+  }
 }
