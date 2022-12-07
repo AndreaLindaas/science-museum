@@ -235,6 +235,9 @@ Promo item
 .promo-item:hover {
   opacity: 0.8;
 }
+.promo-item-container.rotate .promo-item:hover {
+  transform: rotate(1deg);
+}
 .title-text {
   padding: 20px;
 }
