@@ -10,6 +10,9 @@ form label {
   margin-bottom: 5px;
   display: inline-block;
 }
+label[for="call"] {
+  vertical-align: super;
+}
 
 form input,
 form select {
@@ -17,12 +20,13 @@ form select {
   height: 38px;
   border: none;
   padding: 0 10px;
+  box-sizing: content-box;
 }
 form textarea {
   height: 100px;
   width: 100%;
   border: none;
-  padding: 0 10px;
+  padding: 10px;
 }
 form input[type="checkbox"] {
   height: 26px;
@@ -30,7 +34,18 @@ form input[type="checkbox"] {
 }
 .form-button {
   text-align: center;
+  display: grid;
+  grid-template-columns: auto 150px;
+  justify-content: center;
+  align-items: baseline;
 }
+
+.clear-form-link,
+.clear-form-link:visited {
+  color: #000;
+  font-size: 14px;
+}
+
 .team {
   background-color: #fff;
   padding: 16px;

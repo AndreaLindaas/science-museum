@@ -251,6 +251,7 @@ Promo item
   header {
     height: 96px;
     padding: 20px;
+    border-bottom: 2px solid var(--red);
   }
   .main-header {
     height: 300px;
@@ -278,8 +279,7 @@ Promo item
   #menu-checkbox:checked ~ nav {
     display: block;
     background: transparent;
-    display: grid;
-    grid-template-columns: 75px 84px 75px 92px 132px 122px;
+    display: flex;
   }
   .search-bar {
     display: none;
