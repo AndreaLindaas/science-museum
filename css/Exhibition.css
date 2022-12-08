@@ -6,6 +6,13 @@
   max-width: 400px;
   height: 240px;
 }
+.emty {
+  height: 100px;
+}
+
+.small {
+  max-width: 200px;
+}
 @media screen and (min-width: 768px) {
   .video-container iframe {
     margin-top: 30px;

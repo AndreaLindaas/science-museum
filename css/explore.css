@@ -10,3 +10,7 @@
   max-width: 500px;
   margin: 0 auto;
 }
+h1,
+h2 {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}

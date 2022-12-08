@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Source+Sans+3&family=Work+Sans&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/a63e3bd4b5.js"
       crossorigin="anonymous"
@@ -63,7 +67,7 @@
       <h1>Contact us!</h1>
       <div class="form-employee-container">
         <div>
-          <form class="form">
+          <form>
             <div>
               <label for="fname">Full name</label>
               <input type="text" id="fname" name="fname" required />
@@ -76,10 +80,29 @@
               <label for="number">Phone number</label>
               <input type="number" name="number" id="number" />
             </div>
+
+            <div>
+              <label for="subject">Choose a option:</label>
+              <!-- <input list="sub" id="subject" name="subject" /> -->
+
+              <select id="subject">
+                <option value="exhibitions">Exhibitions</option>
+                <option value="special-events">Special events</option>
+                <option value="schools">Schools</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
             <div>
               <label for="message">Message*</label>
               <textarea id="message" name="message" required></textarea>
             </div>
+
+            <div>
+              <input type="checkbox" />
+              <label for="call">I prefer to be contactet by phone</label>
+            </div>
+
             <div class="form-button">
               <button type="submit" class="buttons">Send</button>
             </div>
@@ -90,19 +113,22 @@
             <h2>Meet out brilliant team</h2>
             <div class="team-container">
               <div>
-                <img src="Images/contact/fred.jpg" alt="portrait of employee" />
+                <img
+                  src="media/images/contacts/fred .jpg"
+                  alt="portrait of employee"
+                />
                 <p>Fred</p>
               </div>
               <div>
                 <img
-                  src="Images/contact/jonis.jpg"
+                  src="media/images/contacts/jonis.jpg"
                   alt="portrait of employee"
                 />
                 <p>Jonis</p>
               </div>
               <div>
                 <img
-                  src="Images/contact/julian.jpg"
+                  src="media/images/contacts/julian .jpg"
                   alt="portrait of employee"
                 />
                 <p>Julian</p>

@@ -1,22 +1,32 @@
 main {
   background-color: var(--grey);
 }
-.form div {
+form div {
   margin: 20px auto;
   width: 270px;
 }
 
-.form input {
+form label {
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+form input,
+form select {
   width: 100%;
   height: 38px;
   border: none;
   padding: 0 10px;
 }
-.form textarea {
+form textarea {
   height: 100px;
   width: 100%;
   border: none;
   padding: 0 10px;
+}
+form input[type="checkbox"] {
+  height: 26px;
+  width: 26px;
 }
 .form-button {
   text-align: center;
@@ -45,6 +55,7 @@ main {
 .team-container p {
   text-align: center;
 }
+
 @media screen and (min-width: 768px) {
   .form-employee-container {
     display: flex;
