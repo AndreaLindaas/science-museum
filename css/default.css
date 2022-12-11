@@ -169,6 +169,8 @@ footer a {
 button.buttons {
   height: 40px;
 }
+/***content item***/
+
 .content-item {
   background-color: var(--grey);
   padding: 50px 20px;
@@ -354,7 +356,7 @@ Promo item
   }
   .promo-item-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
     padding: 0 60px;
   }

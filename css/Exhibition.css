@@ -13,6 +13,9 @@
 .small {
   max-width: 200px;
 }
+.content-item .button-container {
+  margin-bottom: 20px;
+}
 @media screen and (min-width: 768px) {
   .video-container iframe {
     margin-top: 30px;
