@@ -234,10 +234,10 @@ Promo item
 }
 .promo-item a {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 .promo-item a:visited {
-  color: black;
+  color: #fff;
 }
 .promo-item:hover {
   opacity: 0.8;
