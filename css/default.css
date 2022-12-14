@@ -209,7 +209,7 @@ button.buttons {
 
 .content-item .button-container {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 .content-item .ticket-button .buttons {
   height: 46px;
@@ -273,9 +273,18 @@ Promo item
     top: 60px;
     right: 1px;
   }
+  nav a:after {
+    display: block;
+    content: "";
+    border-bottom: solid 3px var(--orange);
+    transform: scaleX(0);
+    transition: transform 200ms ease-in-out;
+  }
   nav a:hover {
     color: var(--orange);
-    border-bottom: 1px solid var(--orange);
+  }
+  nav a:hover:after {
+    transform: scaleX(1);
   }
   nav,
   #menu-checkbox:checked ~ nav {
